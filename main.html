@@ -20,8 +20,12 @@
 
             }
 
+            input {
+                color: #000;
+            }
+
             #heading-banner {
-                margin-top: -34px;
+                margin-top: -37px;
                 margin-left: -7px;
                 width: 101.7%;
 
@@ -41,8 +45,6 @@
                 font-size: 33px;
                 font-family: 'Fredoka One', cursive;
                 font-family: 'Merriweather', serif;
-                border-top-right-radius: 2px;
-                border-top-left-radius: 2px;
                 text-shadow: 1px 3px 5px rgb(0, 0, 0, 0.2);
             }
 
@@ -51,7 +53,7 @@
                 text-align: center;
                 font-size: 16px;
                 font-family: arial;
-                color: rgb(184, 184, 184);
+                color: rgb(150, 150, 150);
                 padding-bottom: 15px;
                 font-family: 'Roboto', sans-serif;
             }
@@ -97,10 +99,6 @@
             .text-input {
                 background: none;
                 border-radius: 3px;
-                /**border-top: none;
-                border-left: none;
-                border-right: none;
-                border-bottom: solid;**/
                 border: solid;
                 border-width: 1px;
                 border-color: rgb(211, 211, 211);
@@ -118,6 +116,11 @@
                 color: #404040;
             }
 
+            .event-select {
+                padding: 3px;
+                color: #404040;
+            }
+
             p {
                 padding: 20px;
             }
@@ -128,7 +131,7 @@
                 color: #fff;
                 padding: 10px;
                 font-size: 18px;
-                border-radius: 3px;
+                border-radius: 5px;
             }
 
             #submit-btn:hover {
@@ -151,13 +154,15 @@
 
             </div>
 
-            <a id="kaohome" href="#">Khan Olymipics Home</a>
+            <a id="kaohome"
+                href="https://www.khanacademy.org/computer-programming/kao-2019-home-pre-challenge/5717091141189632">Khan
+                Olymipics Home Page</a>
 
-            <p class="question">What is your Khan Academy name <a class="example">Example: Name</a>
+            <p class="question">* What is your Khan Academy name <a class="example">Example: Name</a>
                 <input type="text" class="text-input">
             </p>
 
-            <p class="question">What is your Khan Academy username <a class="example">Example: Name</a>
+            <p class="question">* What is your Khan Academy username <a class="example">Example: Name</a>
                 <input type="text" class="text-input">
             </p>
 
@@ -167,13 +172,23 @@
 
             <p class="question-title">Were
                 you part of the KAO last year, if so what team?</p>
-            <h3 style="font-size: 18; padding: 5px; margin-left: 5px; font-weight: lighter;">I was on team:</h3>
             <p class="team-select"><input type="radio" name="radio">Team Red Leaf<br></p>
             <p class="team-select"><input type="radio" name="radio">Team Red Leaf<br></p>
             <p class="team-select"><input type="radio" name="radio">Team Red Leaf<br></p>
             <p class="team-select"><input type="radio" name="radio">Team Red Leaf<br></p>
             <p class="team-select"><input type="radio" name="radio">Team Red Leaf<br></p>
+            <p class="team-select"><input type="radio" name="radio">This is my first time in the KAO<br></p>
 
+
+            <p class="question-title">What events would you like to participate in:</p>
+            <p class="event-select"><input type="checkbox" name="checkbox">Make a cake jake<br></p>
+            <p class="event-select"><input type="checkbox" name="checkbox">Make a cake jake<br></p>
+            <p class="event-select"><input type="checkbox" name="checkbox">Make a cake jake<br></p>
+            <p class="event-select"><input type="checkbox" name="checkbox">Make a cake jake<br></p>
+            <p class="event-select"><input type="checkbox" name="checkbox">Make a cake jake<br></p>
+            <p class="event-select"><input type="checkbox" name="checkbox">Make a cake jake<br></p>
+            <p class="event-select"><input type="checkbox" name="checkbox">Make a cake jake<br></p>
+            <p class="event-select"><input type="checkbox" name="checkbox">Make a cake jake<br></p>
 
 
             <br>
